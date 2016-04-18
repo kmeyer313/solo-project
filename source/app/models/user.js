@@ -1,7 +1,7 @@
 function User() {
   this.personsAttractedTo = []
-  this.qualitiesAttractedTo = []
-  this.categories = []
+  // this.qualitiesAttractedTo = []
+  // this.categories = []
 }
 
 User.prototype.addPerson = function(person) {
