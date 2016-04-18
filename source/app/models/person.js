@@ -7,7 +7,7 @@ function Person(order, firstName, relationshipStatus) {
 
 
 Person.prototype.addQuality = function(quality) {
-  this.qualities.push(quality);
+  this.qualitiesForPerson.push(quality);
   return this;
 }
 
